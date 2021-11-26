@@ -1,4 +1,3 @@
-QBCore = nil
 Citizen.CreateThread(function()
     while QBCore == nil do
         TriggerEvent(Config.SharedObjectName, function(obj) QBCore = obj end)
