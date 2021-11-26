@@ -5,18 +5,20 @@ description "Usable cookies items"
 author "MenanAk47 (MenanAk47#3129)"
 version "1.0"
 
-client_scripts {
-  'config.lua',
-  'client/utils.lua',
-  'client/loader.lua',
+shared_scripts {
+    '@qb-core/import.lua',
+}
 
-  'locales/en.lua',
+client_scripts {
+    'config.lua',
+    'client/utils.lua',
+    'client/loader.lua',
+    'locales/en.lua',
 }
 
 server_scripts {
-  'config.lua',
-  'server/utils.lua',
-  'server/loader.lua',
-
-  'locales/en.lua',
+    'config.lua',
+    'server/utils.lua',
+    'server/loader.lua',
+    'locales/en.lua',
 }

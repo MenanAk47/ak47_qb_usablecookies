@@ -1,4 +1,8 @@
-QBCore = exports['qb-core']:GetCoreObject()
+Citizen.CreateThread(function()
+    if QBCore == nil then
+        TriggerEvent(Config.SharedObjectName, function(obj) QBCore = obj end)
+    end
+end)
 
 function CanCarryItem(id, item, amount)
 	local xPlayer = QBCore.Functions.GetPlayer(id)
