@@ -5,10 +5,6 @@ description "Usable cookies items"
 author "MenanAk47 (MenanAk47#3129)"
 version "1.0"
 
-shared_scripts {
-    '@qb-core/import.lua',
-}
-
 client_scripts {
     'config.lua',
     'client/utils.lua',

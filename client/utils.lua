@@ -1,12 +1,4 @@
-Citizen.CreateThread(function()
-    if QBCore == nil then
-        TriggerEvent(Config.SharedObjectName, function(obj) QBCore = obj end)
-        Citizen.Wait(1000)
-    end
-    if QBCore == nil then
-        QBCore = exports['qb-core']:GetCoreObject()
-    end
-end)
+QBCore = exports['qb-core']:GetCoreObject()
 
 RegisterNetEvent('ak47_qb_usablecookies:notify')
 AddEventHandler('ak47_qb_usablecookies:notify', function(msg)

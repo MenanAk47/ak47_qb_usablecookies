@@ -1,8 +1,6 @@
 Config = {}
 Config.Locale = 'en'
-
 Config.PatreonEmail = 'Your Patron Email' --Take authorization with your patreon email.
-Config.SharedObjectName     = 'QBCore:GetObject'
 
 Config.UseProgressBar = true
 
