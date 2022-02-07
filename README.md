@@ -23,3 +23,4 @@
 </ol>
 <p><a href="https://youtu.be/wYYNvJWidDE" target="_blank"><strong>ESX Version</strong></a></p>
 <p><strong>Join discord for support:</strong> <a href="https://discord.gg/RKZcVwh">https://discord.gg/RKZcVwh</a></p>
+<p><strong>Note:</strong> We do not support custom frameworks, highly modified versions of QBcore, or deprecated/outdated versions of anything.</p>
